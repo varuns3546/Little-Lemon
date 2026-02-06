@@ -1,6 +1,5 @@
 import React from 'react';
-
-function NavigationBar() {
+const NavigationBar = () => {
   return(   
     <nav style={styles.nav}>
         <img 

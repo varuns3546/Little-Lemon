@@ -1,3 +1,4 @@
+
 import './App.css';
 import NavigationBar from './components/NavigationBar';
 import Hero from './components/Hero';
@@ -7,16 +8,16 @@ import About from './components/About';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <>
-      <NavigationBar/>
-      <Hero/>
-      <Highlights/>
-      <About/>
-      <Testimonials/>
-      <Footer/>
-    </>
-    
+  return (  
+    <div>
+      <NavigationBar />
+      <Hero />
+      <Highlights /> 
+      <Testimonials />
+      <About />
+      <Footer />
+    </div>
+  
   );
 }
 
