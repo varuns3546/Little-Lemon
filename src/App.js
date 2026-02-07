@@ -1,24 +1,20 @@
 
+import React from 'react';
 import './App.css';
-import NavigationBar from './components/NavigationBar';
-import Hero from './components/Hero';
-import Highlights from './components/Highlights';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
-import Footer from './components/Footer';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomeScreen from './screens/HomeScreen';
+import ReserveScreen from './screens/ReserveScreen.js';
 function App() {
   return (  
-    <div>
-      <NavigationBar />
-      <Hero />
-      <Highlights /> 
-      <Testimonials />
-      <About />
-      <Footer />
-    </div>
-  
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomeScreen />} />
+        <Route path='/reserve' element={<ReserveScreen />} />
+      </Routes>
+    </Router>
+
   );
 }
 
 export default App;
+ 
