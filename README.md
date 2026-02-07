@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Little Lemon Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the website for the Little Lemon Mediteranean Restaraunt
 
 ## Available Scripts
 
