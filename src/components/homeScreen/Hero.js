@@ -1,4 +1,4 @@
-import '../App.css';
+import '../../App.css';
 const Hero = () => {
   return (
     <div className="heroContainer">
